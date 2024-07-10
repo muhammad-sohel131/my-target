@@ -8,6 +8,15 @@
 
 body {
     font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+section {
+    width: 1140px;
 }
 .banner {
     height: 652px;
@@ -55,4 +64,71 @@ text-align: center;
 padding: 21px 24px 21px 24px;
 text-decoration: none;
 display: inline-block;
+}
+
+/* why web development section */
+#why-web-development {
+    padding: 80px 97px;
+    margin: auto;
+    margin-top: 74px;
+}
+.section-title {
+    color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+margin-bottom: 24px;
+}
+.section-description {
+    opacity: 0.7;
+    margin: auto;
+    margin-bottom: 16px;
+    max-width: 852px;
+}
+
+
+.development-content {
+    padding: 48px;
+    display: flex;
+    column-gap: 100px;
+}
+.development-content .development-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin: 16px 0px;
+}
+.development-content .development-description p {
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+
+}
+.development-content .development-description button {
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px 12px 20px;
+margin: 16px 0;
+display: flex;
+}
+.development-content .development-description button a {
+    color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 0px 20px 0px 20px;
+text-decoration: none;
 }
