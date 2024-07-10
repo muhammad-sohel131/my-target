@@ -16,7 +16,8 @@ letter-spacing: 0%;
 text-align: center;
 }
 section {
-    width: 1140px;
+    max-width: 1140px;
+    margin: auto;
 }
 .banner {
     height: 652px;
@@ -25,12 +26,12 @@ section {
     padding-bottom: 44px;
 }
 .banner-content {
-    width: 998px;
+    max-width: 998px;
     margin: auto;
     text-align: center;
 }
 .image-container img {
-    width: 240px;
+    max-width: 240px;
 }
 .banner-title{
     color: rgb(13, 19, 33);
@@ -131,4 +132,15 @@ letter-spacing: 0%;
 text-align: center;
 padding: 0px 20px 0px 20px;
 text-decoration: none;
+}
+
+/* My inspiration section */
+#inspiration {
+    margin-top: 80px;
+}
+.video-container {
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+margin-top: 48px;
 }
