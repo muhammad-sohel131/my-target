@@ -9,62 +9,70 @@
 body {
     font-family: "Azeret Mono", monospace;
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
+
 section {
     max-width: 1140px;
     margin: auto;
 }
+
 .banner {
     height: 652px;
     background-image: url(assets/Hero-bg.png);
     padding-top: 26px;
     padding-bottom: 44px;
 }
+
 .banner-content {
     max-width: 998px;
     margin: auto;
     text-align: center;
 }
+
 .image-container img {
     max-width: 240px;
 }
-.banner-title{
+
+.banner-title {
     color: rgb(13, 19, 33);
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-margin-top: 32px;
-margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+    margin-bottom: 24px;
 }
+
 .banner-description {
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
 }
+
 .banner-btn {
     border-radius: 8px;
 
-background: rgb(13, 19, 33);
+    background: rgb(13, 19, 33);
 }
+
 .banner-btn a {
     color: rgb(255, 255, 255);
 
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-padding: 21px 24px 21px 24px;
-text-decoration: none;
-display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* why web development section */
@@ -73,15 +81,17 @@ display: inline-block;
     margin: auto;
     margin-top: 74px;
 }
+
 .section-title {
     color: rgb(13, 19, 33);
 
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-text-align: center;
-margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
 }
+
 .section-description {
     opacity: 0.7;
     margin: auto;
@@ -95,52 +105,112 @@ margin-bottom: 24px;
     display: flex;
     column-gap: 100px;
 }
+
 .development-content .development-description h3 {
     color: rgba(13, 19, 33, 0.7);
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
 }
+
 .development-content .development-description p {
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 
 }
+
 .development-content .development-description button {
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-padding: 12px 20px 12px 20px;
-margin: 16px 0;
-display: flex;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    margin: 16px 0;
+    display: flex;
 }
+
 .development-content .development-description button a {
     color: rgb(13, 19, 33);
 
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-padding: 0px 20px 0px 20px;
-text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
 }
 
 /* My inspiration section */
 #inspiration {
     margin-top: 80px;
 }
+
 .video-container {
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-padding: 32px;
-margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+/* Current target section */
+#current-target {
+    margin-top: 150px;
+}
+
+.current-target-container {
+    display: flex;
+    margin-top: 48px;
+    column-gap: 24px;
+}
+
+.currentTarget-content {
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.currentTarget-content:first-child {
+    background: rgba(255, 76, 30, 0.05);
+    ;
+}
+
+.currentTarget-content:nth-child(2) {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.currentTarget-content:last-child {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.currentTarget-content h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+.currentTarget-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.currentTarget-content a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 24px;
+    display: inline-block;
 }
